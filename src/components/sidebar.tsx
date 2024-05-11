@@ -11,6 +11,7 @@ import {
   HiSearch,
   HiShoppingBag,
   HiUsers,
+  HiHome,
 } from "react-icons/hi";
 
 const ExampleSidebar: FC = function () {
@@ -24,7 +25,7 @@ const ExampleSidebar: FC = function () {
 
   return (
     <Sidebar aria-label="Sidebar with multi-level dropdown example">
-      <div className="flex h-full flex-col justify-between py-2">
+      <div className="flex h-full flex-col justify-between py-2 pt-16">
         <div>
           <form className="pb-3 md:hidden">
             <TextInput
@@ -37,6 +38,15 @@ const ExampleSidebar: FC = function () {
           </form>
           <Sidebar.Items>
             <Sidebar.ItemGroup>
+              <Sidebar.Item
+                href="/home"
+                icon={HiHome}
+                className={
+                  "/" === currentPage ? "bg-gray-100 dark:bg-gray-700" : ""
+                }
+              >
+                Home
+              </Sidebar.Item>
               <Sidebar.Item
                 href="/"
                 icon={HiChartPie}
