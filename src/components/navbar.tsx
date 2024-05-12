@@ -1,5 +1,6 @@
 import type { FC } from "react";
 import { Button, Dropdown, Navbar } from "flowbite-react";
+import { HiCheckCircle } from "react-icons/hi";
 
 const ExampleNavbar: FC = function () {
   return (
@@ -18,12 +19,16 @@ const ExampleNavbar: FC = function () {
       </div>
       <div className="w-full p-3 lg:px-5 lg:pl-3">
         <div className="flex items-center justify-between">
-          <Navbar.Brand href="/">
-            <img alt="" src="/images/logo.svg" className="mr-3 h-6 sm:h-8" />
-            <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
-              LuxuryHotels
-            </span>
-          </Navbar.Brand>
+          <div className="flex items-center justify-between">
+            <Button className="mr-5 " ><i></i></Button>
+            <Navbar.Brand href="/">
+              <img alt="" src="/images/logo.svg" className="mr-3 h-6 sm:h-8" />
+              <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+                LuxuryHotels
+              </span>
+            </Navbar.Brand>
+          </div>
+          
 
           <Navbar.Toggle />
           <Navbar.Collapse>

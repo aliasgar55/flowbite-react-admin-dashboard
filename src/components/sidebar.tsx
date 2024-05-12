@@ -1,4 +1,7 @@
-import { Sidebar, TextInput } from "flowbite-react";
+"use client"
+
+import { Drawer } from "flowbite";
+import { Button, Sidebar, TextInput} from "flowbite-react";
 import type { FC } from "react";
 import { useEffect, useState } from "react";
 import {
@@ -16,7 +19,10 @@ import {
 
 const ExampleSidebar: FC = function () {
   const [currentPage, setCurrentPage] = useState("");
+  const [isOpen, setIsOpen] = useState(true);
 
+  const handleClose = () => setIsOpen(false);
+  
   useEffect(() => {
     const newPage = window.location.pathname;
 
