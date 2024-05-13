@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { Button, Card, Carousel, Checkbox, Label, TextInput } from "flowbite-react";
+import { Button, Checkbox, Label, TextInput } from "flowbite-react";
 import type { FC } from "react";
 import NavbarSidebarLayout from "../../layouts/navbar-sidebar";
 
