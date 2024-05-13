@@ -1,6 +1,6 @@
 import type { FC } from "react";
 import { Button, Dropdown, Navbar } from "flowbite-react";
-import { HiCheckCircle } from "react-icons/hi";
+
 
 const ExampleNavbar: FC = function () {
   return (
