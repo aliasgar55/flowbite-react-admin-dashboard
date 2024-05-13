@@ -93,19 +93,19 @@ const ExampleSidebar: FC = function () {
             </Sidebar.ItemGroup>
             <Sidebar.ItemGroup>
               <Sidebar.Item
-                href="https://github.com/themesberg/flowbite-react/"
+                href="#"
                 icon={HiClipboard}
               >
                 Docs
               </Sidebar.Item>
               <Sidebar.Item
-                href="https://flowbite-react.com/"
+                href="#"
                 icon={HiCollection}
               >
                 Components
               </Sidebar.Item>
               <Sidebar.Item
-                href="https://github.com/themesberg/flowbite-react/issues"
+                href="#"
                 icon={HiInformationCircle}
               >
                 Help

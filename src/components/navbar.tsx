@@ -12,7 +12,7 @@ const ExampleNavbar: FC = function () {
             <Navbar.Link href="#">Publish News</Navbar.Link>
             <Navbar.Link href="#">Login</Navbar.Link>
           </Navbar.Collapse>
-          <Button color="failure" href="https://flowbite.com/pro/">
+          <Button color="failure" href="#">
               FindHotel
           </Button>
         </div>
