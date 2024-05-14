@@ -13,7 +13,7 @@ const ExampleNavbar: FC = function () {
             <Navbar.Link href="#">Login</Navbar.Link>
           </Navbar.Collapse>
           <Button color="failure" href="#">
-              FindHotel
+              Find Hotel
           </Button>
         </div>
       </div>
