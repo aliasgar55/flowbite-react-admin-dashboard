@@ -12,6 +12,7 @@ import SignUpPage from "./pages/authentication/sign-up";
 import EcommerceProductsPage from "./pages/e-commerce/products";
 import UserListPage from "./pages/users/list";
 import HomePage from "./pages/home/home";
+import FindHotelPage from "./pages/home/find-hotel";
 const container = document.getElementById("root");
 
 if (!container) {
@@ -34,6 +35,7 @@ root.render(
           />
           <Route path="/users/list" element={<UserListPage />} />
           <Route path="/home" element={<HomePage />} />
+          <Route path="/home/find-hotel" element={<FindHotelPage />} />
         </Routes>
       </BrowserRouter>
     </Flowbite>
