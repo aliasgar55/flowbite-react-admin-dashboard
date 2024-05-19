@@ -1,5 +1,5 @@
 type HotelCardProps = {
-  name: string;
+  title: string;
   cover_img: string;
   rating: number;
   tags: Array<string>;
@@ -14,7 +14,7 @@ const HotelCard = (props: HotelCardProps) => {
         alt="Sunset in the mountains"
       />
       <div className="flex justify-between mt-2">
-        <div className="text-xl uppercase text-yellow-600">{props.name}</div>
+        <div className="text-xl uppercase text-yellow-600">{props.title}</div>
         <div className="flex">
           <svg
             width="25"
